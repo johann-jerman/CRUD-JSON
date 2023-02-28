@@ -1,0 +1,46 @@
+<h1><b> Creacion de producto </b></h1>
+<style>
+    *{margin: 0 auto;}
+</style>
+
+<form action="/product/create" method="post" enctype="multipart/form-data">
+    
+    <label for="name">Nombre:</label><br>
+    <input type="text" name="name" id="name" value="<%= locals.old && old.name ? old.name : '' %>"><br><br><br>
+    <% if (locals.errors && errors.name) { %>
+        <p><%= errors.name.msg %></p>
+    <% } %>
+    
+    <label for="description">Descripcion:</label><br>
+    <input type="text" name="description" id="description" value="<%= locals.old && old.description ? old.description : '' %>"><br><br><br>
+    <% if (locals.errors && errors.description) { %>
+        <p><%= errors.description.msg %></p>
+    <% } %>
+
+    <label for="image">Imagen:</label><br>
+    <input type="file" name="image" id="image"><br><br><br>
+    <% if (locals.errors && errors.image) { %>
+        <p><%= errors.image.msg %></p>
+    <% } %>
+
+    <label for="price">Precio:</label><br>
+    <input type="text" name="price" id="price" value="<%= locals.old && old.price ? old.price : '' %>"><br><br><br>
+    <% if (locals.errors && errors.price) { %>
+        <p><%= errors.price.msg %></p>
+    <% } %>
+
+    <label for="size">Talla:</label>
+    <select name="size" id="size"> 
+        <option value="S">S</option>
+        <option value="L">L</option>
+        <option value="M">M</option>
+    </select><br><br><br>
+    
+    <label for="category">Categoria:</label>
+    <select name="category" id="category"> 
+        <option value="man">man</option>
+        <option value="women">women</option>
+    </select><br><br>
+
+    <button type="submit">Enviar</button>
+</form>

@@ -1,0 +1,22 @@
+<a href="/">home</a>
+
+
+<h1><b> Listado de Productos</b></h1>
+
+ <!-- hacemos un for que muestre los elementos que tenemos subidos a nuestra base de datos( archivo products.json)-->
+ 
+<% for( let i = 0; i < products.length; i++ ) { %>
+    <a href="/product/<%= products[i].id %>">
+        <%= products[i].name %> <br>
+    </a>
+    <img src="/images/products/<%= products[i].image %>" alt=""> <br>
+    <%= products[i].decription %><br>
+    <%= products[i].price %><br>
+    <%= products[i].category %><br>
+    talla: <%= products[i].size %>
+    <br>
+    <a href="/product/edit/<%= products[i].id %>">edit</a>
+    <a href="/product/delete/<%= products[i].id %>">delete</a>
+
+    <br><br><br><br><br>
+<% } %>

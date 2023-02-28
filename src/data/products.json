@@ -1,0 +1,128 @@
+[
+ {
+  "id": 7,
+  "name": "Pantalon gris",
+  "decription": "Pantalon gris para hombres de talle S",
+  "image": "product-1675612219320.jpg",
+  "price": "$7",
+  "size": "S",
+  "category": "man"
+ },
+ {
+  "id": 8,
+  "name": "Pantalon gris",
+  "decription": "Pantalon gris para mujeres de talle L",
+  "image": "product-1675612219321.jpg",
+  "price": "$8",
+  "size": "L",
+  "category": "women"
+ },
+ {
+  "id": 9,
+  "name": "Pantalon rosa",
+  "decription": "Campera azul para mujeres de talle M",
+  "image": "product-1675612219322.jpg",
+  "price": "$9",
+  "size": "M",
+  "category": "women"
+ },
+ {
+  "id": 10,
+  "name": "Remera amarilla",
+  "decription": "Remera amarilla para hombre de talle S",
+  "image": "product-1675613764606.jpg",
+  "price": "$10",
+  "size": "S",
+  "category": "man"
+ },
+ {
+  "id": 11,
+  "name": "Remera azul",
+  "decription": "Remera azul para hombre de talle L",
+  "image": "product-1675613764610.jpg",
+  "price": "$11",
+  "size": "L",
+  "category": "man"
+ },
+ {
+  "id": 12,
+  "name": "Chomba azul",
+  "decription": "Chomba zul para hombres de talle M",
+  "image": "product-1675613764611.jpg",
+  "price": "$12",
+  "size": "M",
+  "category": "man"
+ },
+ {
+  "id": 13,
+  "name": "Remera celeste",
+  "decription": "Remera celeste para hombre de talle S",
+  "image": "product-1675613764614.jpg",
+  "price": "$13",
+  "size": "S",
+  "category": "man"
+ },
+ {
+  "id": 14,
+  "name": "Remera blanca",
+  "decription": "Remera blanca para hombre de talle L",
+  "image": "product-1675613764615.jpg",
+  "price": "$14",
+  "size": "L",
+  "category": "man"
+ },
+ {
+  "id": 15,
+  "name": "Remera amarilla patito",
+  "decription": "Remera amarillo patito para hombres de talle M",
+  "image": "product-1675614111344.jpg",
+  "price": "$15",
+  "size": "M",
+  "category": "man"
+ },
+ {
+  "id": 16,
+  "name": "Remera celeste",
+  "decription": "Remera celeste para mujeres talle S",
+  "image": "product-1675614111349.jpg",
+  "price": "$16",
+  "size": "S",
+  "category": "women"
+ },
+ {
+  "id": 17,
+  "name": "Remera gris",
+  "decription": "Remera gris para mujeres de talle L",
+  "image": "product-1675614111350.jpg",
+  "price": "$17",
+  "size": "L",
+  "category": "women"
+ },
+ {
+  "id": 18,
+  "name": "Chomba negra",
+  "decription": "Chomba negra para mujeres de talle M",
+  "image": "product-1675614111351.jpg",
+  "price": "$18",
+  "size": "M",
+  "category": "women"
+ },
+ {
+  "id": 19,
+  "name": "Remera rosa",
+  "decription": "Remera rosa para mujeres de talle S",
+  "image": "product-1675614111352.jpg",
+  "price": "$19",
+  "size": "S",
+  "category": "women"
+ },
+ {
+  "id": 20,
+  "name": "Remera verde claro",
+  "decription": "Remera verde claro para hombres de talle L",
+  "image": "product-1675614460797.jpg",
+  "price": "$20",
+  "size": "L",
+  "category": "man"
+ }
+]

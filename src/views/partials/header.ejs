@@ -1,0 +1,17 @@
+
+<h1><b> Listado de Productos </b></h1>
+
+
+<a href="/"><b> home </b></a> <br></br>
+<a href="/product"><b> Productos </b></a> <br></br>
+<a href="/product/create"><b> Crear Producto </b></a><br></br>
+
+<% if (locals.isLogged == true) { %>
+    <a href="/user/profile"><b> <%= locals.userLogged.name %> <%= locals.userLogged.name%> </a>
+    
+    <a href="/user/logout"> logout</a>
+    
+    <% } else{ %>
+    <a href="/user/register"><b> Crear Ususario </b></a><br></br>
+    <a href="/user/login"><b> Login </b></a><br></br>
+<% } %>

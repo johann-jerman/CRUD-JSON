@@ -1,0 +1,31 @@
+<a href="/">home</a><br><br><br>
+
+editando productos<br><br><br>
+
+<!-- formulario de edicion de producto importante el area value previsualiza el valor del campo en las vistas -->
+
+<form  method="post" action="/product/delete/<%= product.id %>?_method=DELETE">
+    <label for="name">nombre:</label>
+    <input type="text" name="name" id="name" value="<%= product.name %>"><br><br><br>
+    
+    <label for="decription">descripcion:</label>
+    <input type="text" name="decription" id="decription" value="<%= product.decription %>"
+    style="width: 500px;"
+    ><br><br><br>
+    
+    <label for="image"></label>
+    <!-- <input type="file" name="image" id="image" value="<%= product.image %>"><br><br><br> -->
+    <img src="/images/products/<%= product.image %>" alt=""> <br>
+
+    
+    <label for="price">precio:</label>
+    <input type="text" name="price" id="price" value="<%= product.price %>"><br><br><br>
+    
+    <label for="size">talla:</label>
+    <input type="text" name="size" id="size" value="<%= product.size %>"><br><br><br>
+    
+    <label for="category">categoria:</label>
+    <input type="text" name="category" id="category" value="<%= product.category %>"><br><br><br>
+    
+    <button type="submit">eliminar</button>
+</form>
